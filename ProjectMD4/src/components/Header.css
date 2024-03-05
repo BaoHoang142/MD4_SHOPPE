@@ -1,0 +1,40 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100vw;
+    height: 120px;
+    background-color: #F7442E;
+}
+.header__navbar {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__navbar--left {
+    display: flex;
+}
+.header__navbar--right {
+    display: flex;
+
+}
+.textNav {
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.textNav p {
+    font-size: 13px;
+    color: #fff;
+}
+.textNavShop {
+    width: 140px;
+}

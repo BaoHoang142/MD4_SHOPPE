@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    width: 100vw;
+}
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: #F1B710;
+    color: #fff;
+    padding-left: 20px;
+    line-height: 60px;
+}
+h1 {
+    font-weight: 500;
+    font-size: 30px;
+}
+#main {
+    width: 100%;
+    height: 630px;
+    background-color: #F2EFE7;
+    position: relative;
+}
+.main__form{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#F1B710 ;
+    float: right;
+    display: block !important;
+    margin-top: 150px;
+    margin-left: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn__add{
+    font-size: 24px;
+    font-weight:900;
+    color: #fff;
+    line-height: 40px;
+}
+.btn:hover{
+    background-color: #DAD7D6;
+    color: #fff;
+    line-height: 23px;
+    cursor: pointer;
+}
+.btn__add:hover{
+    font-size: 24px;
+    font-weight:900;
+    color: #fff;
+    line-height: 40px;
+}
+.formInput {
+    position: absolute;
+    width: 30%;
+    height: 140px;
+    background-color: #fff;
+    margin: 30px 560px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.formInput__title {
+    font-size: 18px;
+    color: black;
+    opacity: 0.5;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.formInput__input {
+    width: 200px;
+    height: 30px;
+    background-color:#F2EFE7 ;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #F2EFE7;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.renderApp {
+    width: 90%;
+    height: 300px;
+    margin-top: 230px;
+    margin-left: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 20px 10px 0px;
+}
+.renderApp__noteForm {
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+.renderApp__note {
+    width: 260px;
+    height: 30%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.renderApp__delete {
+    width: 30px;
+    height: 30px;
+    background-color: #DAD7D6;
+    text-align: center;
+    margin-left: -60px;
+    margin-top: 40px;
+    font-size: 900;
+    cursor: pointer;
+   
+}
+.renderApp__note--word {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0 0 10px;
+}
